@@ -1,0 +1,188 @@
+@color: #313842;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+#header{
+
+  width: 100%;
+  height: auto;
+  background-color: @color;
+  //padding: 10px;
+  padding-left: 15%;
+
+  > div{
+    float: left;
+  }
+
+  .logo{
+    margin-right: 20%;
+  }
+
+  .btn-secondary {
+    color:white;
+    background-color: @color;
+    padding-top: 8%;
+  }
+
+  .btn-secondary:hover {
+  color:blue;
+
+  }
+
+}
+
+#content{
+  background-color: @color;
+
+  .colonna1{
+    padding-top: 5%;
+
+    li a{
+      color: white;
+    }
+
+    li a:hover{
+      color: @color;
+    }
+
+    li.active>a{
+      background-color: white;
+      font-weight: bold;
+      color: @color;
+    }
+  }
+
+  .colonna2{
+    width: 70%;
+  }
+
+  .jumbotron{
+    background-color: white;
+
+    h1, p {
+      display: block;
+      color: @color;
+    }
+
+    .btn-primary {
+      background-color: @color;
+    }
+    .btn-primary:hover{
+      color:blue;
+    }
+  }
+
+  .pos{
+    position: relative;
+  }
+
+  #text {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    top: 10%;
+    left: 20%;
+
+    div {
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      padding-left: 18%;
+    }
+  }
+
+  .cont2{
+    background-color: white;
+    border-color: white;
+    padding-top: 3%;
+    border-radius: 3px;
+  }
+
+  .video {
+    padding: 2%;
+    padding-left: 25%;
+    margin-bottom: 2em;
+  }
+
+  .media{
+    padding-left: 10%;
+    background-color: white;
+
+      .media-object{
+        padding-right: 3%;
+      }
+
+      h4{
+        display: block;
+        color: @color;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        font-size: 30px;
+      }
+      p{
+        display: block;
+        color: @color;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        font-size: 20px;
+      }
+  }
+
+  .colonna{
+    padding: 0;
+      .image-responsive{
+        height: 100%;
+      }
+  }
+
+  .cont-image{
+    padding-top: 5%;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+  }
+
+  .panel-title{
+    color:@color;
+    font-weight: bold;
+  }
+  .panel-body{
+    color: @color;
+  }
+
+  .work{
+    padding-left: 20%;
+  }
+
+  .image-hidden{
+    img{
+      padding-left: 3%;
+    }
+  }
+
+}
+
+
+  #footer{
+    background-color: @color;
+    padding: 5%;
+
+    h1{
+
+      display: block;
+      font-size: 20px;
+      color: white;
+      margin-right: 3%;
+      text-align: center;
+    }
+  }

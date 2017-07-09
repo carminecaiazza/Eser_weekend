@@ -1,0 +1,149 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+#header {
+  width: 100%;
+  height: auto;
+  background-color: #313842;
+  padding-left: 15%;
+}
+#header > div {
+  float: left;
+}
+#header .logo {
+  margin-right: 20%;
+}
+#header .btn-secondary {
+  color: white;
+  background-color: #313842;
+  padding-top: 8%;
+}
+#header .btn-secondary:hover {
+  color: blue;
+}
+#content {
+  background-color: #313842;
+}
+#content .colonna1 {
+  padding-top: 5%;
+}
+#content .colonna1 li a {
+  color: white;
+}
+#content .colonna1 li a:hover {
+  color: #313842;
+}
+#content .colonna1 li.active > a {
+  background-color: white;
+  font-weight: bold;
+  color: #313842;
+}
+#content .colonna2 {
+  width: 70%;
+}
+#content .jumbotron {
+  background-color: white;
+}
+#content .jumbotron h1,
+#content .jumbotron p {
+  display: block;
+  color: #313842;
+}
+#content .jumbotron .btn-primary {
+  background-color: #313842;
+}
+#content .jumbotron .btn-primary:hover {
+  color: blue;
+}
+#content .pos {
+  position: relative;
+}
+#content #text {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  top: 10%;
+  left: 20%;
+}
+#content #text div {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding-left: 18%;
+}
+#content .cont2 {
+  background-color: white;
+  border-color: white;
+  padding-top: 3%;
+  border-radius: 3px;
+}
+#content .video {
+  padding: 2%;
+  padding-left: 25%;
+  margin-bottom: 2em;
+}
+#content .media {
+  padding-left: 10%;
+  background-color: white;
+}
+#content .media .media-object {
+  padding-right: 3%;
+}
+#content .media h4 {
+  display: block;
+  color: #313842;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  font-size: 30px;
+}
+#content .media p {
+  display: block;
+  color: #313842;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 5%;
+  font-size: 20px;
+}
+#content .colonna {
+  padding: 0;
+}
+#content .colonna .image-responsive {
+  height: 100%;
+}
+#content .cont-image {
+  padding-top: 5%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#content .panel-title {
+  color: #313842;
+  font-weight: bold;
+}
+#content .panel-body {
+  color: #313842;
+}
+#content .work {
+  padding-left: 20%;
+}
+#content .image-hidden img {
+  padding-left: 3%;
+}
+#footer {
+  background-color: #313842;
+  padding: 5%;
+}
+#footer h1 {
+  display: block;
+  font-size: 20px;
+  color: white;
+  margin-right: 3%;
+  text-align: center;
+}
